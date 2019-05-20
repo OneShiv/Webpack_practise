@@ -24,6 +24,6 @@ EG BABEL
 babel has 3 repositories 
 1) babel-loader
 2) babel-convert
-3) babel-presets
+3) babel-presets 
 
 
