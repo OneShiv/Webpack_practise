@@ -1,0 +1,29 @@
+Webpack notes 
+
+Starting baout some background we have server two types 
+1) Server side templating  : backend server creates a html document and sends it to user fast enough
+2) Single Page App (SPA) : HTML and css is sent to user but the js is then fetched and then only interaction can begin
+
+Now what happens when we write lots of js code is we convert usually it in ver less no of files so that the load time is less on client side
+But when we want to change something like 
+eg : we want to change some buisnness logic upon click on header it becomes difficult to do that in less files but with long code .
+
+****  Another problem is dependency of .js files amongst each other i.e particular load order *****
+
+So we must split code , but we need some kind of bundler for converting all .js file codes into a single file 
+>> Thats when bundlers like Webpack come in
+
+it combines all modules into one single large .js file and also preserves the order in which they should be loaded 
+No need to take tension of load order.
+
+
+Loaders : Module loaders are used to do some pre-processing on files before the are bundled
+Loaders are used to enhance the behaviour of webpack
+
+EG BABEL
+babel has 3 repositories 
+1) babel-loader
+2) babel-convert
+3) babel-presets
+
+
